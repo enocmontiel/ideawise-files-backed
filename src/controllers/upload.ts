@@ -8,6 +8,8 @@ import {
     UploadChunk,
     UploadProgress,
 } from '../types/api';
+import path from 'path';
+import fs from 'fs-extra';
 
 export const uploadController = {
     async initiateUpload(req: Request, res: Response) {
@@ -56,27 +58,62 @@ export const uploadController = {
 
     async uploadChunk(req: Request, res: Response) {
         try {
-            const { fileId, chunkIndex, totalChunks } = req.body;
-            const chunk = req.file;
+            const { fileId, chunkIndex, totalChunks, chunk, isBase64 } =
+                req.body;
+            const uploadedFile = req.file;
 
-            if (!fileId || !chunk || chunkIndex === undefined || !totalChunks) {
+            if (!fileId || chunkIndex === undefined || !totalChunks) {
                 return res
                     .status(400)
                     .json({ error: 'Missing required fields' });
             }
 
-            logger.info(`Received chunk for file: ${fileId}`, {
-                chunkIndex,
-                chunkSize: chunk.size,
-                path: chunk.path,
-            });
+            // Check if we have either a file upload or base64 data
+            if (!uploadedFile && !chunk) {
+                return res.status(400).json({ error: 'Missing chunk data' });
+            }
+
+            let chunkPath: string;
+            let chunkSize: number;
+
+            if (isBase64 && chunk) {
+                // Handle base64 data
+                const buffer = Buffer.from(chunk, 'base64');
+                chunkSize = buffer.length;
+
+                // Save the base64 data to a temporary file
+                const chunkDir = path.join(config.uploadDir, fileId);
+                fs.ensureDirSync(chunkDir);
+                chunkPath = path.join(chunkDir, `chunk-${chunkIndex}`);
+                fs.writeFileSync(chunkPath, buffer);
+
+                logger.info(`Received base64 chunk for file: ${fileId}`, {
+                    chunkIndex,
+                    chunkSize,
+                    path: chunkPath,
+                });
+            } else if (uploadedFile) {
+                // Handle file upload
+                chunkPath = uploadedFile.path;
+                chunkSize = uploadedFile.size;
+
+                logger.info(`Received file chunk for file: ${fileId}`, {
+                    chunkIndex,
+                    chunkSize,
+                    path: chunkPath,
+                });
+            } else {
+                return res
+                    .status(400)
+                    .json({ error: 'Invalid chunk data format' });
+            }
 
             const uploadChunk: UploadChunk = {
                 fileId,
                 chunkIndex: parseInt(chunkIndex),
                 totalChunks: parseInt(totalChunks),
-                data: chunk.path,
-                size: chunk.size,
+                data: chunkPath,
+                size: chunkSize,
             };
 
             await fileService.saveChunk(uploadChunk);

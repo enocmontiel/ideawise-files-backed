@@ -29,29 +29,32 @@ const fileFilter = (
     file: Express.Multer.File,
     cb: multer.FileFilterCallback
 ) => {
-    const allowedMimeTypes = [
-        'image/jpeg',
-        'image/png',
-        'image/gif',
-        'video/mp4',
-        'video/webm',
-    ];
-
-    if (allowedMimeTypes.includes(file.mimetype)) {
+    // For chunk uploads, we're more permissive since we've already validated the file type
+    // during the initial upload. We just need to ensure it's a binary file.
+    if (
+        file.mimetype.startsWith('application/') ||
+        file.mimetype.startsWith('image/') ||
+        file.mimetype.startsWith('video/') ||
+        file.mimetype === ''
+    ) {
         cb(null, true);
     } else {
-        cb(new Error('Invalid file type. Only images and videos are allowed.'));
+        cb(new Error('Invalid file type. Only binary files are allowed.'));
     }
 };
 
 // Add 10% overhead to the chunk size limit to accommodate form data
 const CHUNK_SIZE_WITH_OVERHEAD = Math.ceil(config.chunkSize * 1.1);
 
+// For base64 data, we need a larger field size limit (base64 encoding increases size by ~33%)
+const BASE64_CHUNK_SIZE_WITH_OVERHEAD = Math.ceil(config.chunkSize * 1.5);
+
 export const upload = multer({
     storage,
     fileFilter,
     limits: {
         fileSize: CHUNK_SIZE_WITH_OVERHEAD,
+        fieldSize: BASE64_CHUNK_SIZE_WITH_OVERHEAD, // Increase field size limit for base64 data
     },
 });
 
@@ -67,6 +70,11 @@ export const errorHandler = (
                 error: `File size exceeds the ${
                     CHUNK_SIZE_WITH_OVERHEAD / 1024 / 1024
                 }MB limit`,
+            });
+        }
+        if (error.code === 'LIMIT_FIELD_VALUE') {
+            return res.status(400).json({
+                error: `Field value too long. This might be due to base64 encoding. Please try a smaller chunk size.`,
             });
         }
         logger.error('Multer error:', error);

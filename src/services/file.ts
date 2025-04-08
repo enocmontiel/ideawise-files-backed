@@ -73,16 +73,22 @@ export const fileService = {
             // Get file stats
             const stats = await fs.stat(filePath);
 
+            // Get MIME type
+            const mimeType = this.getMimeType(fileName);
+
             // Create file metadata
             const fileMetadata: FileMetadata = {
                 id: fileId,
                 name: fileName,
                 type: path.extname(fileName),
                 size: stats.size,
-                mimeType: this.getMimeType(fileName),
+                mimeType,
                 createdAt: new Date().toISOString(),
                 updatedAt: new Date().toISOString(),
                 url: `/files/${fileName}`,
+                thumbnailUrl: mimeType.startsWith('image/')
+                    ? `/files/${fileName}`
+                    : undefined,
             };
 
             // Clean up chunks

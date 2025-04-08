@@ -44,11 +44,14 @@ const fileFilter = (
     }
 };
 
+// Add 10% overhead to the chunk size limit to accommodate form data
+const CHUNK_SIZE_WITH_OVERHEAD = Math.ceil(config.chunkSize * 1.1);
+
 export const upload = multer({
     storage,
     fileFilter,
     limits: {
-        fileSize: config.chunkSize,
+        fileSize: CHUNK_SIZE_WITH_OVERHEAD,
     },
 });
 
@@ -62,7 +65,7 @@ export const errorHandler = (
         if (error.code === 'LIMIT_FILE_SIZE') {
             return res.status(400).json({
                 error: `File size exceeds the ${
-                    config.chunkSize / 1024 / 1024
+                    CHUNK_SIZE_WITH_OVERHEAD / 1024 / 1024
                 }MB limit`,
             });
         }

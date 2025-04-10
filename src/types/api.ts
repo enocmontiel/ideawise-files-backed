@@ -8,6 +8,7 @@ export interface FileMetadata {
     updatedAt: string;
     url: string;
     thumbnailUrl?: string;
+    deviceId: string;
 }
 
 export interface UploadChunk {
@@ -24,6 +25,7 @@ export interface UploadProgress {
     status: 'pending' | 'uploading' | 'paused' | 'completed' | 'error';
     error?: string;
     totalChunks: number;
+    deviceId: string;
 }
 
 export interface InitiateUploadResponse {
@@ -31,6 +33,7 @@ export interface InitiateUploadResponse {
     uploadUrl: string;
     chunks: number;
     chunkSize: number;
+    deviceId: string;
 }
 
 export interface UploadState {

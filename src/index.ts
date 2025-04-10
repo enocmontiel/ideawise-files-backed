@@ -5,7 +5,9 @@ import { config } from './config';
 import { redisService } from './services/redis';
 import { fileService } from './services/file';
 import uploadRoutes from './routes/upload';
+import filesRoutes from './routes/files';
 import logger from './utils/logger';
+import fs from 'fs-extra';
 
 const app = express();
 
@@ -29,11 +31,24 @@ app.get('/', (req, res) => {
     });
 });
 
-// Static file serving
-app.use('/files', express.static(path.join(config.uploadDir)));
+// Serve static files from the uploads directory
+app.use(
+    '/files',
+    express.static(config.uploadDir, {
+        dotfiles: 'deny',
+        index: false,
+        fallthrough: true,
+    })
+);
 
 // Routes
 app.use('/api', uploadRoutes);
+app.use('/api', filesRoutes);
+
+// Add a test endpoint to verify files routes
+app.get('/api/test-files', (req, res) => {
+    res.json({ message: 'Files routes are working' });
+});
 
 // Error handling
 app.use(
@@ -60,6 +75,7 @@ const startServer = async () => {
         // Start listening
         app.listen(config.port, () => {
             logger.info(`Server is running on port ${config.port}`);
+            logger.info(`API URL: http://localhost:${config.port}/api`);
         });
     } catch (error) {
         logger.error('Failed to start server:', error);

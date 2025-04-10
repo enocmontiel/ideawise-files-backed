@@ -191,3 +191,549 @@
 {"chunkIndex":"0","chunkSize":979833,"level":"info","message":"Received base64 chunk for file: 82203c51-151e-4a2a-b4e5-a748b6923279","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/82203c51-151e-4a2a-b4e5-a748b6923279/chunk-0","timestamp":"2025-04-08T21:56:43.172Z"}
 {"chunkIndex":"0","level":"info","message":"Chunk uploaded for file: 82203c51-151e-4a2a-b4e5-a748b6923279","progress":0,"timestamp":"2025-04-08T21:56:43.173Z"}
 {"fileId":"82203c51-151e-4a2a-b4e5-a748b6923279","level":"info","message":"Upload finalized for file: IMG_0001.JPG","timestamp":"2025-04-08T21:56:43.179Z"}
+{"fileId":"a834234b-b249-4f5b-b8c1-aaf43b6097a1","level":"info","message":"Upload initiated for file: IMG_0006.jpg","timestamp":"2025-04-09T13:53:38.980Z","totalChunks":5}
+{"chunkIndex":"0","chunkSize":1048576,"level":"info","message":"Received base64 chunk for file: a834234b-b249-4f5b-b8c1-aaf43b6097a1","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a834234b-b249-4f5b-b8c1-aaf43b6097a1/chunk-0","timestamp":"2025-04-09T13:53:39.378Z"}
+{"chunkIndex":"0","level":"info","message":"Chunk uploaded for file: a834234b-b249-4f5b-b8c1-aaf43b6097a1","progress":0,"timestamp":"2025-04-09T13:53:39.380Z"}
+{"chunkIndex":"1","chunkSize":1048576,"level":"info","message":"Received base64 chunk for file: a834234b-b249-4f5b-b8c1-aaf43b6097a1","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a834234b-b249-4f5b-b8c1-aaf43b6097a1/chunk-1","timestamp":"2025-04-09T13:53:39.498Z"}
+{"chunkIndex":"1","level":"info","message":"Chunk uploaded for file: a834234b-b249-4f5b-b8c1-aaf43b6097a1","progress":0,"timestamp":"2025-04-09T13:53:39.499Z"}
+{"chunkIndex":"2","chunkSize":1048576,"level":"info","message":"Received base64 chunk for file: a834234b-b249-4f5b-b8c1-aaf43b6097a1","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a834234b-b249-4f5b-b8c1-aaf43b6097a1/chunk-2","timestamp":"2025-04-09T13:53:39.619Z"}
+{"chunkIndex":"2","level":"info","message":"Chunk uploaded for file: a834234b-b249-4f5b-b8c1-aaf43b6097a1","progress":0,"timestamp":"2025-04-09T13:53:39.625Z"}
+{"chunkIndex":"3","chunkSize":1048576,"level":"info","message":"Received base64 chunk for file: a834234b-b249-4f5b-b8c1-aaf43b6097a1","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a834234b-b249-4f5b-b8c1-aaf43b6097a1/chunk-3","timestamp":"2025-04-09T13:53:39.739Z"}
+{"chunkIndex":"3","level":"info","message":"Chunk uploaded for file: a834234b-b249-4f5b-b8c1-aaf43b6097a1","progress":0,"timestamp":"2025-04-09T13:53:39.740Z"}
+{"chunkIndex":"4","chunkSize":836875,"level":"info","message":"Received base64 chunk for file: a834234b-b249-4f5b-b8c1-aaf43b6097a1","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a834234b-b249-4f5b-b8c1-aaf43b6097a1/chunk-4","timestamp":"2025-04-09T13:53:39.843Z"}
+{"chunkIndex":"4","level":"info","message":"Chunk uploaded for file: a834234b-b249-4f5b-b8c1-aaf43b6097a1","progress":0,"timestamp":"2025-04-09T13:53:39.844Z"}
+{"fileId":"a834234b-b249-4f5b-b8c1-aaf43b6097a1","level":"info","message":"Upload finalized for file: IMG_0006.jpg","timestamp":"2025-04-09T13:53:39.858Z"}
+{"fileId":"861e85ce-5548-4287-8b25-95e55c594c23","level":"info","message":"Upload initiated for file: IMG_0002.JPG","timestamp":"2025-04-09T13:53:39.885Z","totalChunks":3}
+{"chunkIndex":"0","chunkSize":1048576,"level":"info","message":"Received base64 chunk for file: 861e85ce-5548-4287-8b25-95e55c594c23","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/861e85ce-5548-4287-8b25-95e55c594c23/chunk-0","timestamp":"2025-04-09T13:53:40.129Z"}
+{"chunkIndex":"0","level":"info","message":"Chunk uploaded for file: 861e85ce-5548-4287-8b25-95e55c594c23","progress":0,"timestamp":"2025-04-09T13:53:40.131Z"}
+{"chunkIndex":"1","chunkSize":1048576,"level":"info","message":"Received base64 chunk for file: 861e85ce-5548-4287-8b25-95e55c594c23","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/861e85ce-5548-4287-8b25-95e55c594c23/chunk-1","timestamp":"2025-04-09T13:53:40.248Z"}
+{"chunkIndex":"1","level":"info","message":"Chunk uploaded for file: 861e85ce-5548-4287-8b25-95e55c594c23","progress":0,"timestamp":"2025-04-09T13:53:40.249Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/upload/chunk","timestamp":"2025-04-09T13:53:40.272Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/upload/chunk","timestamp":"2025-04-09T13:53:42.329Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/upload/chunk","timestamp":"2025-04-09T13:53:46.381Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/upload/chunk","timestamp":"2025-04-09T13:53:54.429Z"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully...","timestamp":"2025-04-09T13:56:29.957Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-09T13:56:31.312Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-09T13:56:31.314Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-09T13:57:45.470Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-09T13:57:45.472Z"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully...","timestamp":"2025-04-09T14:01:01.475Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-09T14:01:01.796Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-09T14:01:01.798Z"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully...","timestamp":"2025-04-09T14:01:09.969Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-09T14:01:10.155Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-09T14:01:10.157Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-09T14:01:52.271Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-09T14:01:52.273Z"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully...","timestamp":"2025-04-09T14:22:29.459Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-09T14:22:29.762Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-09T14:22:29.764Z"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully...","timestamp":"2025-04-09T14:22:51.524Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-09T14:22:51.719Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-09T14:22:51.720Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-09T14:22:51.721Z"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully...","timestamp":"2025-04-09T14:23:03.429Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-09T14:23:03.661Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-09T14:23:03.663Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-09T14:23:03.663Z"}
+{"level":"info","message":"Attempting to delete file with ID: a834234b-b249-4f5b-b8c1-aaf43b6097a1","timestamp":"2025-04-09T14:23:41.854Z"}
+{"level":"info","message":"Uploads directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads","timestamp":"2025-04-09T14:23:41.855Z"}
+{"level":"info","message":"Files in uploads directory: 24ae9775-d995-45b5-a84b-de7e58f8af2b, 2bae8bad-f9a0-4eb9-a08d-5eccdfaad37a, 861e85ce-5548-4287-8b25-95e55c594c23, 89be8ac5-de38-4422-9bf2-de8e75713832, 93a6b90b-ae6a-49b3-842c-9ee483c92206, ChatGPT Image 1 abr 2025, 04_51_06 p.m..png, ChatGPT Image 1 abr 2025, 05_16_26 p.m..png, ChatGPT Image 1 abr 2025, 05_32_55 p.m..png, ChatGPT Image 1 abr 2025, 05_40_33 p.m..png, ChatGPT Image 1 abr 2025, 06_06_33 p.m..png, IMG_0001.JPG, IMG_0002.JPG, IMG_0006.jpg, IMG_2655.jpeg, IMG_7918.HEIC, IMG_7919.HEIC, Picabia_Framed_Smooth.jpg, WhatsApp Image 2025-03-18 at 16.34.42.jpeg","timestamp":"2025-04-09T14:23:41.855Z"}
+{"level":"info","message":"Target file found: none","timestamp":"2025-04-09T14:23:41.855Z"}
+{"level":"warn","message":"File not found for ID: a834234b-b249-4f5b-b8c1-aaf43b6097a1","timestamp":"2025-04-09T14:23:41.855Z"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully...","timestamp":"2025-04-09T14:24:57.522Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-09T14:24:57.786Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-09T14:24:57.788Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-09T14:24:57.788Z"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully...","timestamp":"2025-04-09T14:25:10.428Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-09T14:25:10.628Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-09T14:25:10.630Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-09T14:25:10.630Z"}
+{"level":"info","message":"Attempting to delete file with ID: a834234b-b249-4f5b-b8c1-aaf43b6097a1","timestamp":"2025-04-09T14:25:43.341Z"}
+{"level":"info","message":"Uploads directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads","timestamp":"2025-04-09T14:25:43.341Z"}
+{"level":"info","message":"Files in uploads directory: 24ae9775-d995-45b5-a84b-de7e58f8af2b, 2bae8bad-f9a0-4eb9-a08d-5eccdfaad37a, 861e85ce-5548-4287-8b25-95e55c594c23, 89be8ac5-de38-4422-9bf2-de8e75713832, 93a6b90b-ae6a-49b3-842c-9ee483c92206, ChatGPT Image 1 abr 2025, 04_51_06 p.m..png, ChatGPT Image 1 abr 2025, 05_16_26 p.m..png, ChatGPT Image 1 abr 2025, 05_32_55 p.m..png, ChatGPT Image 1 abr 2025, 05_40_33 p.m..png, ChatGPT Image 1 abr 2025, 06_06_33 p.m..png, IMG_0001.JPG, IMG_0002.JPG, IMG_0006.jpg, IMG_2655.jpeg, IMG_7918.HEIC, IMG_7919.HEIC, Picabia_Framed_Smooth.jpg, WhatsApp Image 2025-03-18 at 16.34.42.jpeg","timestamp":"2025-04-09T14:25:43.342Z"}
+{"level":"info","message":"Target file found: none","timestamp":"2025-04-09T14:25:43.342Z"}
+{"level":"warn","message":"File not found for ID: a834234b-b249-4f5b-b8c1-aaf43b6097a1","timestamp":"2025-04-09T14:25:43.342Z"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully...","timestamp":"2025-04-09T14:27:33.885Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-09T14:27:34.158Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-09T14:27:34.159Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-09T14:27:34.159Z"}
+{"level":"info","message":"Attempting to delete file with ID: a834234b-b249-4f5b-b8c1-aaf43b6097a1","timestamp":"2025-04-09T14:27:50.160Z"}
+{"level":"info","message":"Uploads directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads","timestamp":"2025-04-09T14:27:50.161Z"}
+{"level":"info","message":"Files in uploads directory: 24ae9775-d995-45b5-a84b-de7e58f8af2b, 2bae8bad-f9a0-4eb9-a08d-5eccdfaad37a, 861e85ce-5548-4287-8b25-95e55c594c23, 89be8ac5-de38-4422-9bf2-de8e75713832, 93a6b90b-ae6a-49b3-842c-9ee483c92206, ChatGPT Image 1 abr 2025, 04_51_06 p.m..png, ChatGPT Image 1 abr 2025, 05_16_26 p.m..png, ChatGPT Image 1 abr 2025, 05_32_55 p.m..png, ChatGPT Image 1 abr 2025, 05_40_33 p.m..png, ChatGPT Image 1 abr 2025, 06_06_33 p.m..png, IMG_0001.JPG, IMG_0002.JPG, IMG_0006.jpg, IMG_2655.jpeg, IMG_7918.HEIC, IMG_7919.HEIC, Picabia_Framed_Smooth.jpg, WhatsApp Image 2025-03-18 at 16.34.42.jpeg","timestamp":"2025-04-09T14:27:50.162Z"}
+{"level":"warn","message":"File not found for ID: a834234b-b249-4f5b-b8c1-aaf43b6097a1","timestamp":"2025-04-09T14:27:50.162Z"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully...","timestamp":"2025-04-09T14:28:39.743Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-09T14:28:40.021Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-09T14:28:40.023Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-09T14:28:40.023Z"}
+{"level":"info","message":"Attempting to delete file with ID: a834234b-b249-4f5b-b8c1-aaf43b6097a1","timestamp":"2025-04-09T14:29:05.188Z"}
+{"level":"info","message":"Uploads directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads","timestamp":"2025-04-09T14:29:05.188Z"}
+{"level":"info","message":"Files in uploads directory: 24ae9775-d995-45b5-a84b-de7e58f8af2b, 2bae8bad-f9a0-4eb9-a08d-5eccdfaad37a, 861e85ce-5548-4287-8b25-95e55c594c23, 89be8ac5-de38-4422-9bf2-de8e75713832, 93a6b90b-ae6a-49b3-842c-9ee483c92206, ChatGPT Image 1 abr 2025, 04_51_06 p.m..png, ChatGPT Image 1 abr 2025, 05_16_26 p.m..png, ChatGPT Image 1 abr 2025, 05_32_55 p.m..png, ChatGPT Image 1 abr 2025, 05_40_33 p.m..png, ChatGPT Image 1 abr 2025, 06_06_33 p.m..png, IMG_0001.JPG, IMG_0002.JPG, IMG_0006.jpg, IMG_2655.jpeg, IMG_7918.HEIC, IMG_7919.HEIC, Picabia_Framed_Smooth.jpg, WhatsApp Image 2025-03-18 at 16.34.42.jpeg","timestamp":"2025-04-09T14:29:05.189Z"}
+{"level":"warn","message":"No file found matching ID: a834234b-b249-4f5b-b8c1-aaf43b6097a1","timestamp":"2025-04-09T14:29:05.190Z"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully...","timestamp":"2025-04-09T14:30:31.361Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-09T14:30:31.639Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-09T14:30:31.641Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-09T14:30:31.641Z"}
+{"level":"info","message":"Attempting to delete file with ID: a834234b-b249-4f5b-b8c1-aaf43b6097a1","timestamp":"2025-04-09T14:30:51.170Z"}
+{"level":"info","message":"Uploads directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads","timestamp":"2025-04-09T14:30:51.171Z"}
+{"level":"info","message":"Files in uploads directory: 24ae9775-d995-45b5-a84b-de7e58f8af2b, 2bae8bad-f9a0-4eb9-a08d-5eccdfaad37a, 861e85ce-5548-4287-8b25-95e55c594c23, 89be8ac5-de38-4422-9bf2-de8e75713832, 93a6b90b-ae6a-49b3-842c-9ee483c92206, ChatGPT Image 1 abr 2025, 04_51_06 p.m..png, ChatGPT Image 1 abr 2025, 05_16_26 p.m..png, ChatGPT Image 1 abr 2025, 05_32_55 p.m..png, ChatGPT Image 1 abr 2025, 05_40_33 p.m..png, ChatGPT Image 1 abr 2025, 06_06_33 p.m..png, IMG_0001.JPG, IMG_0002.JPG, IMG_0006.jpg, IMG_2655.jpeg, IMG_7918.HEIC, IMG_7919.HEIC, Picabia_Framed_Smooth.jpg, WhatsApp Image 2025-03-18 at 16.34.42.jpeg","timestamp":"2025-04-09T14:30:51.171Z"}
+{"level":"warn","message":"No file found matching ID: a834234b-b249-4f5b-b8c1-aaf43b6097a1","timestamp":"2025-04-09T14:30:51.172Z"}
+{"fileId":"f0bc456c-fdf5-4f3b-ba27-5844276d04eb","level":"info","message":"Upload initiated for file: IMG_0001.JPG","timestamp":"2025-04-09T14:31:23.166Z","totalChunks":3}
+{"chunkIndex":"0","chunkSize":1048576,"level":"info","message":"Received base64 chunk for file: f0bc456c-fdf5-4f3b-ba27-5844276d04eb","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/f0bc456c-fdf5-4f3b-ba27-5844276d04eb/chunk-0","timestamp":"2025-04-09T14:31:23.453Z"}
+{"chunkIndex":"0","level":"info","message":"Chunk uploaded for file: f0bc456c-fdf5-4f3b-ba27-5844276d04eb","progress":0,"timestamp":"2025-04-09T14:31:23.456Z"}
+{"chunkIndex":"1","chunkSize":1048576,"level":"info","message":"Received base64 chunk for file: f0bc456c-fdf5-4f3b-ba27-5844276d04eb","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/f0bc456c-fdf5-4f3b-ba27-5844276d04eb/chunk-1","timestamp":"2025-04-09T14:31:23.571Z"}
+{"chunkIndex":"1","level":"info","message":"Chunk uploaded for file: f0bc456c-fdf5-4f3b-ba27-5844276d04eb","progress":0,"timestamp":"2025-04-09T14:31:23.572Z"}
+{"chunkIndex":"2","chunkSize":526896,"level":"info","message":"Received base64 chunk for file: f0bc456c-fdf5-4f3b-ba27-5844276d04eb","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/f0bc456c-fdf5-4f3b-ba27-5844276d04eb/chunk-2","timestamp":"2025-04-09T14:31:23.631Z"}
+{"chunkIndex":"2","level":"info","message":"Chunk uploaded for file: f0bc456c-fdf5-4f3b-ba27-5844276d04eb","progress":0,"timestamp":"2025-04-09T14:31:23.633Z"}
+{"fileId":"f0bc456c-fdf5-4f3b-ba27-5844276d04eb","level":"info","message":"Upload finalized for file: IMG_0001.JPG","timestamp":"2025-04-09T14:31:23.641Z"}
+{"level":"info","message":"Attempting to delete file with ID: f0bc456c-fdf5-4f3b-ba27-5844276d04eb","timestamp":"2025-04-09T14:31:31.198Z"}
+{"level":"info","message":"Uploads directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads","timestamp":"2025-04-09T14:31:31.199Z"}
+{"level":"info","message":"Files in uploads directory: 24ae9775-d995-45b5-a84b-de7e58f8af2b, 2bae8bad-f9a0-4eb9-a08d-5eccdfaad37a, 861e85ce-5548-4287-8b25-95e55c594c23, 89be8ac5-de38-4422-9bf2-de8e75713832, 93a6b90b-ae6a-49b3-842c-9ee483c92206, ChatGPT Image 1 abr 2025, 04_51_06 p.m..png, ChatGPT Image 1 abr 2025, 05_16_26 p.m..png, ChatGPT Image 1 abr 2025, 05_32_55 p.m..png, ChatGPT Image 1 abr 2025, 05_40_33 p.m..png, ChatGPT Image 1 abr 2025, 06_06_33 p.m..png, IMG_0001-f0bc456c-fdf5-4f3b-ba27-5844276d04eb.JPG, IMG_0001.JPG, IMG_0002.JPG, IMG_0006.jpg, IMG_2655.jpeg, IMG_7918.HEIC, IMG_7919.HEIC, Picabia_Framed_Smooth.jpg, WhatsApp Image 2025-03-18 at 16.34.42.jpeg","timestamp":"2025-04-09T14:31:31.199Z"}
+{"level":"info","message":"Found file containing ID in name: IMG_0001-f0bc456c-fdf5-4f3b-ba27-5844276d04eb.JPG","timestamp":"2025-04-09T14:31:31.199Z"}
+{"level":"info","message":"Attempting to delete file at path: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/IMG_0001-f0bc456c-fdf5-4f3b-ba27-5844276d04eb.JPG","timestamp":"2025-04-09T14:31:31.199Z"}
+{"level":"info","message":"Successfully deleted file: IMG_0001-f0bc456c-fdf5-4f3b-ba27-5844276d04eb.JPG","timestamp":"2025-04-09T14:31:31.200Z"}
+{"level":"info","message":"Checking for thumbnail at: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/thumbnails/IMG_0001-f0bc456c-fdf5-4f3b-ba27-5844276d04eb.JPG.jpg","timestamp":"2025-04-09T14:31:31.200Z"}
+{"fileId":"bf742c6c-01c3-48ab-bbdc-7a7c438cee43","level":"info","message":"Upload initiated for file: IMG_0003.JPG","timestamp":"2025-04-09T14:33:17.698Z","totalChunks":1}
+{"chunkIndex":"0","chunkSize":978625,"level":"info","message":"Received base64 chunk for file: bf742c6c-01c3-48ab-bbdc-7a7c438cee43","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/bf742c6c-01c3-48ab-bbdc-7a7c438cee43/chunk-0","timestamp":"2025-04-09T14:33:17.876Z"}
+{"chunkIndex":"0","level":"info","message":"Chunk uploaded for file: bf742c6c-01c3-48ab-bbdc-7a7c438cee43","progress":0,"timestamp":"2025-04-09T14:33:17.877Z"}
+{"fileId":"bf742c6c-01c3-48ab-bbdc-7a7c438cee43","level":"info","message":"Upload finalized for file: IMG_0003.JPG","timestamp":"2025-04-09T14:33:17.884Z"}
+{"level":"info","message":"Attempting to delete file with ID: bf742c6c-01c3-48ab-bbdc-7a7c438cee43","timestamp":"2025-04-09T14:33:27.747Z"}
+{"level":"info","message":"Uploads directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads","timestamp":"2025-04-09T14:33:27.747Z"}
+{"level":"info","message":"Files in uploads directory: 24ae9775-d995-45b5-a84b-de7e58f8af2b, 2bae8bad-f9a0-4eb9-a08d-5eccdfaad37a, 861e85ce-5548-4287-8b25-95e55c594c23, 89be8ac5-de38-4422-9bf2-de8e75713832, 93a6b90b-ae6a-49b3-842c-9ee483c92206, ChatGPT Image 1 abr 2025, 04_51_06 p.m..png, ChatGPT Image 1 abr 2025, 05_16_26 p.m..png, ChatGPT Image 1 abr 2025, 05_32_55 p.m..png, ChatGPT Image 1 abr 2025, 05_40_33 p.m..png, ChatGPT Image 1 abr 2025, 06_06_33 p.m..png, IMG_0001.JPG, IMG_0002.JPG, IMG_0003-bf742c6c-01c3-48ab-bbdc-7a7c438cee43.JPG, IMG_0006.jpg, IMG_2655.jpeg, IMG_7918.HEIC, IMG_7919.HEIC, Picabia_Framed_Smooth.jpg, WhatsApp Image 2025-03-18 at 16.34.42.jpeg","timestamp":"2025-04-09T14:33:27.748Z"}
+{"level":"info","message":"Found file containing ID in name: IMG_0003-bf742c6c-01c3-48ab-bbdc-7a7c438cee43.JPG","timestamp":"2025-04-09T14:33:27.748Z"}
+{"level":"info","message":"Attempting to delete file at path: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/IMG_0003-bf742c6c-01c3-48ab-bbdc-7a7c438cee43.JPG","timestamp":"2025-04-09T14:33:27.749Z"}
+{"level":"info","message":"Successfully deleted file: IMG_0003-bf742c6c-01c3-48ab-bbdc-7a7c438cee43.JPG","timestamp":"2025-04-09T14:33:27.750Z"}
+{"level":"info","message":"Checking for thumbnail at: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/thumbnails/IMG_0003-bf742c6c-01c3-48ab-bbdc-7a7c438cee43.JPG.jpg","timestamp":"2025-04-09T14:33:27.750Z"}
+{"fileId":"f159149f-900f-42ea-9e13-e072f237ab83","level":"info","message":"Upload initiated for file: IMG_0111.jpg","timestamp":"2025-04-10T14:03:12.365Z","totalChunks":4}
+{"chunkIndex":"0","chunkSize":1048576,"level":"info","message":"Received base64 chunk for file: f159149f-900f-42ea-9e13-e072f237ab83","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/f159149f-900f-42ea-9e13-e072f237ab83/chunk-0","timestamp":"2025-04-10T14:03:12.715Z"}
+{"chunkIndex":"0","level":"info","message":"Chunk uploaded for file: f159149f-900f-42ea-9e13-e072f237ab83","progress":0,"timestamp":"2025-04-10T14:03:12.717Z"}
+{"chunkIndex":"1","chunkSize":1048576,"level":"info","message":"Received base64 chunk for file: f159149f-900f-42ea-9e13-e072f237ab83","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/f159149f-900f-42ea-9e13-e072f237ab83/chunk-1","timestamp":"2025-04-10T14:03:12.848Z"}
+{"chunkIndex":"1","level":"info","message":"Chunk uploaded for file: f159149f-900f-42ea-9e13-e072f237ab83","progress":0,"timestamp":"2025-04-10T14:03:12.850Z"}
+{"chunkIndex":"2","chunkSize":1048576,"level":"info","message":"Received base64 chunk for file: f159149f-900f-42ea-9e13-e072f237ab83","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/f159149f-900f-42ea-9e13-e072f237ab83/chunk-2","timestamp":"2025-04-10T14:03:12.970Z"}
+{"chunkIndex":"2","level":"info","message":"Chunk uploaded for file: f159149f-900f-42ea-9e13-e072f237ab83","progress":0,"timestamp":"2025-04-10T14:03:12.974Z"}
+{"chunkIndex":"3","chunkSize":980418,"level":"info","message":"Received base64 chunk for file: f159149f-900f-42ea-9e13-e072f237ab83","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/f159149f-900f-42ea-9e13-e072f237ab83/chunk-3","timestamp":"2025-04-10T14:03:13.083Z"}
+{"chunkIndex":"3","level":"info","message":"Chunk uploaded for file: f159149f-900f-42ea-9e13-e072f237ab83","progress":0,"timestamp":"2025-04-10T14:03:13.085Z"}
+{"fileId":"f159149f-900f-42ea-9e13-e072f237ab83","level":"info","message":"Upload finalized for file: IMG_0111.jpg","timestamp":"2025-04-10T14:03:13.093Z"}
+{"fileId":"60c14856-699d-4b5e-bf32-f64f18c7e525","level":"info","message":"Upload initiated for file: IMG_0005.jpg","timestamp":"2025-04-10T14:03:13.130Z","totalChunks":2}
+{"chunkIndex":"0","chunkSize":1048576,"level":"info","message":"Received base64 chunk for file: 60c14856-699d-4b5e-bf32-f64f18c7e525","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/60c14856-699d-4b5e-bf32-f64f18c7e525/chunk-0","timestamp":"2025-04-10T14:03:13.335Z"}
+{"chunkIndex":"0","level":"info","message":"Chunk uploaded for file: 60c14856-699d-4b5e-bf32-f64f18c7e525","progress":0,"timestamp":"2025-04-10T14:03:13.336Z"}
+{"chunkIndex":"1","chunkSize":435948,"level":"info","message":"Received base64 chunk for file: 60c14856-699d-4b5e-bf32-f64f18c7e525","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/60c14856-699d-4b5e-bf32-f64f18c7e525/chunk-1","timestamp":"2025-04-10T14:03:13.386Z"}
+{"chunkIndex":"1","level":"info","message":"Chunk uploaded for file: 60c14856-699d-4b5e-bf32-f64f18c7e525","progress":0,"timestamp":"2025-04-10T14:03:13.387Z"}
+{"fileId":"60c14856-699d-4b5e-bf32-f64f18c7e525","level":"info","message":"Upload finalized for file: IMG_0005.jpg","timestamp":"2025-04-10T14:03:13.396Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/upload/initiate","timestamp":"2025-04-10T14:03:13.435Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-10T14:40:50.922Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-10T14:40:50.924Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-10T14:40:50.924Z"}
+{"level":"info","message":"Attempting to delete file with ID: f159149f-900f-42ea-9e13-e072f237ab83","timestamp":"2025-04-10T14:40:59.833Z"}
+{"level":"info","message":"Uploads directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads","timestamp":"2025-04-10T14:40:59.833Z"}
+{"level":"info","message":"Files in uploads directory: 24ae9775-d995-45b5-a84b-de7e58f8af2b, 2bae8bad-f9a0-4eb9-a08d-5eccdfaad37a, 861e85ce-5548-4287-8b25-95e55c594c23, 89be8ac5-de38-4422-9bf2-de8e75713832, 93a6b90b-ae6a-49b3-842c-9ee483c92206, ChatGPT Image 1 abr 2025, 04_51_06 p.m..png, ChatGPT Image 1 abr 2025, 05_16_26 p.m..png, ChatGPT Image 1 abr 2025, 05_32_55 p.m..png, ChatGPT Image 1 abr 2025, 05_40_33 p.m..png, ChatGPT Image 1 abr 2025, 06_06_33 p.m..png, IMG_0001.JPG, IMG_0002.JPG, IMG_0005-60c14856-699d-4b5e-bf32-f64f18c7e525.jpg, IMG_0006.jpg, IMG_0111-f159149f-900f-42ea-9e13-e072f237ab83.jpg, IMG_2655.jpeg, IMG_7918.HEIC, IMG_7919.HEIC, Picabia_Framed_Smooth.jpg, WhatsApp Image 2025-03-18 at 16.34.42.jpeg","timestamp":"2025-04-10T14:40:59.834Z"}
+{"level":"info","message":"Found file containing ID in name: IMG_0111-f159149f-900f-42ea-9e13-e072f237ab83.jpg","timestamp":"2025-04-10T14:40:59.834Z"}
+{"level":"info","message":"Attempting to delete file at path: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/IMG_0111-f159149f-900f-42ea-9e13-e072f237ab83.jpg","timestamp":"2025-04-10T14:40:59.834Z"}
+{"level":"info","message":"Successfully deleted file: IMG_0111-f159149f-900f-42ea-9e13-e072f237ab83.jpg","timestamp":"2025-04-10T14:40:59.836Z"}
+{"level":"info","message":"Checking for thumbnail at: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/thumbnails/IMG_0111-f159149f-900f-42ea-9e13-e072f237ab83.jpg.jpg","timestamp":"2025-04-10T14:40:59.837Z"}
+{"level":"info","message":"Attempting to delete file with ID: 60c14856-699d-4b5e-bf32-f64f18c7e525","timestamp":"2025-04-10T14:41:02.752Z"}
+{"level":"info","message":"Uploads directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads","timestamp":"2025-04-10T14:41:02.753Z"}
+{"level":"info","message":"Files in uploads directory: 24ae9775-d995-45b5-a84b-de7e58f8af2b, 2bae8bad-f9a0-4eb9-a08d-5eccdfaad37a, 861e85ce-5548-4287-8b25-95e55c594c23, 89be8ac5-de38-4422-9bf2-de8e75713832, 93a6b90b-ae6a-49b3-842c-9ee483c92206, ChatGPT Image 1 abr 2025, 04_51_06 p.m..png, ChatGPT Image 1 abr 2025, 05_16_26 p.m..png, ChatGPT Image 1 abr 2025, 05_32_55 p.m..png, ChatGPT Image 1 abr 2025, 05_40_33 p.m..png, ChatGPT Image 1 abr 2025, 06_06_33 p.m..png, IMG_0001.JPG, IMG_0002.JPG, IMG_0005-60c14856-699d-4b5e-bf32-f64f18c7e525.jpg, IMG_0006.jpg, IMG_2655.jpeg, IMG_7918.HEIC, IMG_7919.HEIC, Picabia_Framed_Smooth.jpg, WhatsApp Image 2025-03-18 at 16.34.42.jpeg","timestamp":"2025-04-10T14:41:02.754Z"}
+{"level":"info","message":"Found file containing ID in name: IMG_0005-60c14856-699d-4b5e-bf32-f64f18c7e525.jpg","timestamp":"2025-04-10T14:41:02.754Z"}
+{"level":"info","message":"Attempting to delete file at path: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/IMG_0005-60c14856-699d-4b5e-bf32-f64f18c7e525.jpg","timestamp":"2025-04-10T14:41:02.754Z"}
+{"level":"info","message":"Successfully deleted file: IMG_0005-60c14856-699d-4b5e-bf32-f64f18c7e525.jpg","timestamp":"2025-04-10T14:41:02.757Z"}
+{"level":"info","message":"Checking for thumbnail at: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/thumbnails/IMG_0005-60c14856-699d-4b5e-bf32-f64f18c7e525.jpg.jpg","timestamp":"2025-04-10T14:41:02.757Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-10T15:41:33.284Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-10T15:41:33.286Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-10T15:41:33.286Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:42:08.998Z"}
+{"fileId":"7ec9035f-2fc6-4840-9e50-89c6cc5bb413","level":"info","message":"Upload initiated for file: ChatGPT Image 1 abr 2025, 06_06_33 p.m..png","timestamp":"2025-04-10T15:42:33.382Z","totalChunks":2}
+{"chunkIndex":"0","chunkSize":1048576,"level":"info","message":"Received file chunk for file: 7ec9035f-2fc6-4840-9e50-89c6cc5bb413","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/7ec9035f-2fc6-4840-9e50-89c6cc5bb413/chunk-0","timestamp":"2025-04-10T15:42:33.427Z"}
+{"chunkIndex":"0","level":"info","message":"Chunk uploaded for file: 7ec9035f-2fc6-4840-9e50-89c6cc5bb413","progress":0,"timestamp":"2025-04-10T15:42:33.429Z"}
+{"chunkIndex":"1","chunkSize":907414,"level":"info","message":"Received file chunk for file: 7ec9035f-2fc6-4840-9e50-89c6cc5bb413","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/7ec9035f-2fc6-4840-9e50-89c6cc5bb413/chunk-1","timestamp":"2025-04-10T15:42:33.436Z"}
+{"chunkIndex":"1","level":"info","message":"Chunk uploaded for file: 7ec9035f-2fc6-4840-9e50-89c6cc5bb413","progress":0,"timestamp":"2025-04-10T15:42:33.437Z"}
+{"fileId":"7ec9035f-2fc6-4840-9e50-89c6cc5bb413","level":"info","message":"Upload finalized for file: ChatGPT Image 1 abr 2025, 06_06_33 p.m..png","timestamp":"2025-04-10T15:42:33.446Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:42:38.993Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:42:45.307Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:43:15.332Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:43:45.338Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:44:15.336Z"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully...","timestamp":"2025-04-10T15:44:49.905Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-10T15:44:50.234Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-10T15:44:50.238Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-10T15:44:50.239Z"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully...","timestamp":"2025-04-10T15:45:57.836Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-10T15:45:58.124Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-10T15:45:58.126Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-10T15:45:58.126Z"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully...","timestamp":"2025-04-10T15:47:14.054Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-10T15:47:14.336Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-10T15:47:14.338Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-10T15:47:14.338Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:47:28.342Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:47:38.332Z"}
+{"fileId":"e07e2057-52a4-4546-8f0e-bae15f617cbe","level":"info","message":"Upload initiated for file: ChatGPT Image 1 abr 2025, 04_55_09 p.m..png","timestamp":"2025-04-10T15:47:57.467Z","totalChunks":3}
+{"chunkIndex":"0","chunkSize":1048576,"level":"info","message":"Received file chunk for file: e07e2057-52a4-4546-8f0e-bae15f617cbe","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/e07e2057-52a4-4546-8f0e-bae15f617cbe/chunk-0","timestamp":"2025-04-10T15:47:57.516Z"}
+{"chunkIndex":"0","level":"info","message":"Chunk uploaded for file: e07e2057-52a4-4546-8f0e-bae15f617cbe","progress":0,"timestamp":"2025-04-10T15:47:57.517Z"}
+{"chunkIndex":"1","chunkSize":1048576,"level":"info","message":"Received file chunk for file: e07e2057-52a4-4546-8f0e-bae15f617cbe","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/e07e2057-52a4-4546-8f0e-bae15f617cbe/chunk-1","timestamp":"2025-04-10T15:47:57.523Z"}
+{"chunkIndex":"1","level":"info","message":"Chunk uploaded for file: e07e2057-52a4-4546-8f0e-bae15f617cbe","progress":0,"timestamp":"2025-04-10T15:47:57.524Z"}
+{"chunkIndex":"2","chunkSize":60292,"level":"info","message":"Received file chunk for file: e07e2057-52a4-4546-8f0e-bae15f617cbe","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/e07e2057-52a4-4546-8f0e-bae15f617cbe/chunk-2","timestamp":"2025-04-10T15:47:57.528Z"}
+{"chunkIndex":"2","level":"info","message":"Chunk uploaded for file: e07e2057-52a4-4546-8f0e-bae15f617cbe","progress":0,"timestamp":"2025-04-10T15:47:57.529Z"}
+{"fileId":"e07e2057-52a4-4546-8f0e-bae15f617cbe","level":"info","message":"Upload finalized for file: ChatGPT Image 1 abr 2025, 04_55_09 p.m..png","timestamp":"2025-04-10T15:47:57.537Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:48:04.307Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:48:09.763Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:48:40.334Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:49:10.331Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:49:40.333Z"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully...","timestamp":"2025-04-10T15:49:52.828Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-10T15:49:53.133Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-10T15:49:53.135Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-10T15:49:53.135Z"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully...","timestamp":"2025-04-10T15:50:06.894Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-10T15:50:07.098Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-10T15:50:07.099Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-10T15:50:07.100Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:50:10.337Z"}
+{"level":"info","message":"Found 2 files in directory: ChatGPT Image 1 abr 2025, 04_55_09 p.m.-e07e2057-52a4-4546-8f0e-bae15f617cbe.png, ChatGPT Image 1 abr 2025, 06_06_33 p.m.-7ec9035f-2fc6-4840-9e50-89c6cc5bb413.png","timestamp":"2025-04-10T15:50:10.339Z"}
+{"level":"info","message":"Returning 2 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:50:10.340Z"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully...","timestamp":"2025-04-10T15:50:22.865Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-10T15:50:23.077Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-10T15:50:23.079Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-10T15:50:23.079Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:50:27.091Z"}
+{"level":"info","message":"Found 2 files in directory: ChatGPT Image 1 abr 2025, 04_55_09 p.m.-e07e2057-52a4-4546-8f0e-bae15f617cbe.png, ChatGPT Image 1 abr 2025, 06_06_33 p.m.-7ec9035f-2fc6-4840-9e50-89c6cc5bb413.png","timestamp":"2025-04-10T15:50:27.093Z"}
+{"level":"info","message":"Returning 2 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:50:27.093Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:50:31.864Z"}
+{"level":"info","message":"Found 2 files in directory: ChatGPT Image 1 abr 2025, 04_55_09 p.m.-e07e2057-52a4-4546-8f0e-bae15f617cbe.png, ChatGPT Image 1 abr 2025, 06_06_33 p.m.-7ec9035f-2fc6-4840-9e50-89c6cc5bb413.png","timestamp":"2025-04-10T15:50:31.866Z"}
+{"level":"info","message":"Returning 2 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:50:31.867Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:51:02.337Z"}
+{"level":"info","message":"Found 2 files in directory: ChatGPT Image 1 abr 2025, 04_55_09 p.m.-e07e2057-52a4-4546-8f0e-bae15f617cbe.png, ChatGPT Image 1 abr 2025, 06_06_33 p.m.-7ec9035f-2fc6-4840-9e50-89c6cc5bb413.png","timestamp":"2025-04-10T15:51:02.338Z"}
+{"level":"info","message":"Returning 2 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:51:02.339Z"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully...","timestamp":"2025-04-10T15:51:27.008Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-10T15:51:27.288Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-10T15:51:27.290Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-10T15:51:27.290Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:51:32.342Z"}
+{"level":"info","message":"Found 2 files in directory: ChatGPT Image 1 abr 2025, 04_55_09 p.m.-e07e2057-52a4-4546-8f0e-bae15f617cbe.png, ChatGPT Image 1 abr 2025, 06_06_33 p.m.-7ec9035f-2fc6-4840-9e50-89c6cc5bb413.png","timestamp":"2025-04-10T15:51:32.343Z"}
+{"level":"info","message":"Returning 2 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:51:32.344Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:52:02.338Z"}
+{"level":"info","message":"Found 2 files in directory: ChatGPT Image 1 abr 2025, 04_55_09 p.m.-e07e2057-52a4-4546-8f0e-bae15f617cbe.png, ChatGPT Image 1 abr 2025, 06_06_33 p.m.-7ec9035f-2fc6-4840-9e50-89c6cc5bb413.png","timestamp":"2025-04-10T15:52:02.339Z"}
+{"level":"info","message":"Returning 2 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:52:02.339Z"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully...","timestamp":"2025-04-10T15:52:17.742Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-10T15:52:18.579Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-10T15:52:18.581Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-10T15:52:18.582Z"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully...","timestamp":"2025-04-10T15:52:31.944Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-10T15:52:32.163Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-10T15:52:32.165Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-10T15:52:32.165Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:52:32.340Z"}
+{"level":"info","message":"Found 2 files in directory: ChatGPT Image 1 abr 2025, 04_55_09 p.m.-e07e2057-52a4-4546-8f0e-bae15f617cbe.png, ChatGPT Image 1 abr 2025, 06_06_33 p.m.-7ec9035f-2fc6-4840-9e50-89c6cc5bb413.png","timestamp":"2025-04-10T15:52:32.341Z"}
+{"level":"info","message":"Returning 2 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:52:32.341Z"}
+{"level":"info","message":"Serving static files from: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:52:58.093Z"}
+{"level":"info","message":"Serving static files from: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:52:58.097Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:52:58.108Z"}
+{"level":"info","message":"Found 3 files in directory: ChatGPT Image 1 abr 2025, 04_55_09 p.m.-e07e2057-52a4-4546-8f0e-bae15f617cbe.png, ChatGPT Image 1 abr 2025, 06_06_33 p.m.-7ec9035f-2fc6-4840-9e50-89c6cc5bb413.png, thumbnails","timestamp":"2025-04-10T15:52:58.110Z"}
+{"level":"info","message":"Returning 2 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:52:58.111Z"}
+{"fileId":"bb0862f5-c953-4b21-b9cc-e5f0fc343f99","level":"info","message":"Upload initiated for file: WhatsApp Image 2025-02-13 at 15.28.57 (2).jpeg","timestamp":"2025-04-10T15:53:14.810Z","totalChunks":1}
+{"chunkIndex":"0","chunkSize":136295,"level":"info","message":"Received file chunk for file: bb0862f5-c953-4b21-b9cc-e5f0fc343f99","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/bb0862f5-c953-4b21-b9cc-e5f0fc343f99/chunk-0","timestamp":"2025-04-10T15:53:14.828Z"}
+{"chunkIndex":"0","level":"info","message":"Chunk uploaded for file: bb0862f5-c953-4b21-b9cc-e5f0fc343f99","progress":0,"timestamp":"2025-04-10T15:53:14.830Z"}
+{"fileId":"bb0862f5-c953-4b21-b9cc-e5f0fc343f99","level":"info","message":"Upload finalized for file: WhatsApp Image 2025-02-13 at 15.28.57 (2).jpeg","timestamp":"2025-04-10T15:53:14.845Z"}
+{"level":"info","message":"Serving static files from: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/thumb_WhatsApp Image 2025-02-13 at 15.28.57 (2)-bb0862f5-c953-4b21-b9cc-e5f0fc343f99.jpeg","timestamp":"2025-04-10T15:53:14.854Z"}
+{"code":"EEXIST","errno":-17,"level":"error","message":"Unhandled error: EEXIST: file already exists, mkdir '/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/thumb_WhatsApp Image 2025-02-13 at 15.28.57 (2)-bb0862f5-c953-4b21-b9cc-e5f0fc343f99.jpeg'","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/thumb_WhatsApp Image 2025-02-13 at 15.28.57 (2)-bb0862f5-c953-4b21-b9cc-e5f0fc343f99.jpeg","stack":"Error: EEXIST: file already exists, mkdir '/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/thumb_WhatsApp Image 2025-02-13 at 15.28.57 (2)-bb0862f5-c953-4b21-b9cc-e5f0fc343f99.jpeg'\n    at Object.mkdirSync (node:fs:1374:26)\n    at Object.module.exports.makeDirSync (/Users/enocmontiel/Desktop/Ideawise/backend-files-management/node_modules/fs-extra/lib/mkdirs/make-dir.js:23:13)\n    at /Users/enocmontiel/Desktop/Ideawise/backend-files-management/src/index.ts:39:8\n    at Layer.handle [as handle_request] (/Users/enocmontiel/Desktop/Ideawise/backend-files-management/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/enocmontiel/Desktop/Ideawise/backend-files-management/node_modules/express/lib/router/index.js:328:13)\n    at /Users/enocmontiel/Desktop/Ideawise/backend-files-management/node_modules/express/lib/router/index.js:286:9\n    at param (/Users/enocmontiel/Desktop/Ideawise/backend-files-management/node_modules/express/lib/router/index.js:365:14)\n    at param (/Users/enocmontiel/Desktop/Ideawise/backend-files-management/node_modules/express/lib/router/index.js:376:14)\n    at Function.process_params (/Users/enocmontiel/Desktop/Ideawise/backend-files-management/node_modules/express/lib/router/index.js:421:3)\n    at next (/Users/enocmontiel/Desktop/Ideawise/backend-files-management/node_modules/express/lib/router/index.js:280:10)","syscall":"mkdir","timestamp":"2025-04-10T15:53:14.857Z"}
+{"level":"info","message":"Serving static files from: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/thumb_WhatsApp Image 2025-02-13 at 15.28.57 (2)-bb0862f5-c953-4b21-b9cc-e5f0fc343f99.jpeg","timestamp":"2025-04-10T15:53:22.665Z"}
+{"code":"EEXIST","errno":-17,"level":"error","message":"Unhandled error: EEXIST: file already exists, mkdir '/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/thumb_WhatsApp Image 2025-02-13 at 15.28.57 (2)-bb0862f5-c953-4b21-b9cc-e5f0fc343f99.jpeg'","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/thumb_WhatsApp Image 2025-02-13 at 15.28.57 (2)-bb0862f5-c953-4b21-b9cc-e5f0fc343f99.jpeg","stack":"Error: EEXIST: file already exists, mkdir '/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/thumb_WhatsApp Image 2025-02-13 at 15.28.57 (2)-bb0862f5-c953-4b21-b9cc-e5f0fc343f99.jpeg'\n    at Object.mkdirSync (node:fs:1374:26)\n    at Object.module.exports.makeDirSync (/Users/enocmontiel/Desktop/Ideawise/backend-files-management/node_modules/fs-extra/lib/mkdirs/make-dir.js:23:13)\n    at /Users/enocmontiel/Desktop/Ideawise/backend-files-management/src/index.ts:39:8\n    at Layer.handle [as handle_request] (/Users/enocmontiel/Desktop/Ideawise/backend-files-management/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/enocmontiel/Desktop/Ideawise/backend-files-management/node_modules/express/lib/router/index.js:328:13)\n    at /Users/enocmontiel/Desktop/Ideawise/backend-files-management/node_modules/express/lib/router/index.js:286:9\n    at param (/Users/enocmontiel/Desktop/Ideawise/backend-files-management/node_modules/express/lib/router/index.js:365:14)\n    at param (/Users/enocmontiel/Desktop/Ideawise/backend-files-management/node_modules/express/lib/router/index.js:376:14)\n    at Function.process_params (/Users/enocmontiel/Desktop/Ideawise/backend-files-management/node_modules/express/lib/router/index.js:421:3)\n    at next (/Users/enocmontiel/Desktop/Ideawise/backend-files-management/node_modules/express/lib/router/index.js:280:10)","syscall":"mkdir","timestamp":"2025-04-10T15:53:22.666Z"}
+{"level":"info","message":"Serving static files from: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:53:22.668Z"}
+{"level":"info","message":"Serving static files from: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:53:22.669Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:53:22.673Z"}
+{"level":"info","message":"Found 3 files in directory: ChatGPT Image 1 abr 2025, 04_55_09 p.m.-e07e2057-52a4-4546-8f0e-bae15f617cbe.png, ChatGPT Image 1 abr 2025, 06_06_33 p.m.-7ec9035f-2fc6-4840-9e50-89c6cc5bb413.png, thumbnails","timestamp":"2025-04-10T15:53:22.674Z"}
+{"level":"info","message":"Returning 2 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:53:22.674Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:53:53.343Z"}
+{"level":"info","message":"Found 3 files in directory: ChatGPT Image 1 abr 2025, 04_55_09 p.m.-e07e2057-52a4-4546-8f0e-bae15f617cbe.png, ChatGPT Image 1 abr 2025, 06_06_33 p.m.-7ec9035f-2fc6-4840-9e50-89c6cc5bb413.png, thumbnails","timestamp":"2025-04-10T15:53:53.344Z"}
+{"level":"info","message":"Returning 2 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:53:53.344Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:54:23.337Z"}
+{"level":"info","message":"Found 3 files in directory: ChatGPT Image 1 abr 2025, 04_55_09 p.m.-e07e2057-52a4-4546-8f0e-bae15f617cbe.png, ChatGPT Image 1 abr 2025, 06_06_33 p.m.-7ec9035f-2fc6-4840-9e50-89c6cc5bb413.png, thumbnails","timestamp":"2025-04-10T15:54:23.338Z"}
+{"level":"info","message":"Returning 2 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:54:23.339Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:54:53.337Z"}
+{"level":"info","message":"Found 3 files in directory: ChatGPT Image 1 abr 2025, 04_55_09 p.m.-e07e2057-52a4-4546-8f0e-bae15f617cbe.png, ChatGPT Image 1 abr 2025, 06_06_33 p.m.-7ec9035f-2fc6-4840-9e50-89c6cc5bb413.png, thumbnails","timestamp":"2025-04-10T15:54:53.337Z"}
+{"level":"info","message":"Returning 2 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:54:53.338Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:55:23.336Z"}
+{"level":"info","message":"Found 3 files in directory: ChatGPT Image 1 abr 2025, 04_55_09 p.m.-e07e2057-52a4-4546-8f0e-bae15f617cbe.png, ChatGPT Image 1 abr 2025, 06_06_33 p.m.-7ec9035f-2fc6-4840-9e50-89c6cc5bb413.png, thumbnails","timestamp":"2025-04-10T15:55:23.337Z"}
+{"level":"info","message":"Returning 2 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:55:23.338Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:55:57.332Z"}
+{"level":"info","message":"Found 3 files in directory: ChatGPT Image 1 abr 2025, 04_55_09 p.m.-e07e2057-52a4-4546-8f0e-bae15f617cbe.png, ChatGPT Image 1 abr 2025, 06_06_33 p.m.-7ec9035f-2fc6-4840-9e50-89c6cc5bb413.png, thumbnails","timestamp":"2025-04-10T15:55:57.333Z"}
+{"level":"info","message":"Returning 2 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:55:57.333Z"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully...","timestamp":"2025-04-10T15:56:13.381Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-10T15:56:13.718Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-10T15:56:13.720Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-10T15:56:13.720Z"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully...","timestamp":"2025-04-10T15:56:34.672Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-10T15:56:34.896Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-10T15:56:34.898Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-10T15:56:34.898Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:56:57.338Z"}
+{"level":"info","message":"Found 3 files in directory: ChatGPT Image 1 abr 2025, 04_55_09 p.m.-e07e2057-52a4-4546-8f0e-bae15f617cbe.png, ChatGPT Image 1 abr 2025, 06_06_33 p.m.-7ec9035f-2fc6-4840-9e50-89c6cc5bb413.png, thumbnails","timestamp":"2025-04-10T15:56:57.339Z"}
+{"level":"info","message":"Returning 2 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:56:57.339Z"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully...","timestamp":"2025-04-10T15:57:27.727Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-10T15:57:28.024Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-10T15:57:28.026Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-10T15:57:28.026Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:57:37.554Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T15:57:37.555Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:57:37.555Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:57:39.799Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T15:57:39.800Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:57:39.801Z"}
+{"fileId":"80a2926e-12be-455c-9660-7636692ab2cb","level":"info","message":"Upload initiated for file: ChatGPT Image 1 abr 2025, 06_06_33 p.m..png","timestamp":"2025-04-10T15:57:55.448Z","totalChunks":2}
+{"chunkIndex":"0","chunkSize":1048576,"level":"info","message":"Received file chunk for file: 80a2926e-12be-455c-9660-7636692ab2cb","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/80a2926e-12be-455c-9660-7636692ab2cb/chunk-0","timestamp":"2025-04-10T15:57:55.498Z"}
+{"chunkIndex":"0","level":"info","message":"Chunk uploaded for file: 80a2926e-12be-455c-9660-7636692ab2cb","progress":0,"timestamp":"2025-04-10T15:57:55.501Z"}
+{"chunkIndex":"1","chunkSize":907414,"level":"info","message":"Received file chunk for file: 80a2926e-12be-455c-9660-7636692ab2cb","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/80a2926e-12be-455c-9660-7636692ab2cb/chunk-1","timestamp":"2025-04-10T15:57:55.507Z"}
+{"chunkIndex":"1","level":"info","message":"Chunk uploaded for file: 80a2926e-12be-455c-9660-7636692ab2cb","progress":0,"timestamp":"2025-04-10T15:57:55.509Z"}
+{"code":"ERR_INVALID_ARG_TYPE","level":"error","message":"Error finalizing upload: The \"path\" argument must be of type string. Received undefined","stack":"TypeError: The \"path\" argument must be of type string. Received undefined\n    at Object.join (node:path:1175:7)\n    at Object.ensureFileDirectories (/Users/enocmontiel/Desktop/Ideawise/backend-files-management/src/services/file.ts:15:33)\n    at Object.assembleFile (/Users/enocmontiel/Desktop/Ideawise/backend-files-management/src/services/file.ts:94:24)\n    at finalizeUpload (/Users/enocmontiel/Desktop/Ideawise/backend-files-management/src/controllers/upload.ts:167:52)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-04-10T15:57:55.517Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:58:10.324Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T15:58:10.325Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:58:10.325Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:58:40.336Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T15:58:40.337Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:58:40.337Z"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully...","timestamp":"2025-04-10T15:59:08.367Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-10T15:59:08.665Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-10T15:59:08.667Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-10T15:59:08.667Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:59:10.336Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T15:59:10.336Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:59:10.336Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-10T15:59:37.375Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-10T15:59:37.376Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-10T15:59:37.377Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:59:39.808Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T15:59:39.809Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:59:39.809Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:59:44.562Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T15:59:44.563Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T15:59:44.563Z"}
+{"fileId":"ae320447-75a3-4eed-9cb5-ee05a0adc9b2","level":"info","message":"Upload initiated for file: Untitled_Artwork 8.jpg","timestamp":"2025-04-10T15:59:58.240Z","totalChunks":1}
+{"chunkIndex":"0","chunkSize":674548,"level":"info","message":"Received file chunk for file: ae320447-75a3-4eed-9cb5-ee05a0adc9b2","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/ae320447-75a3-4eed-9cb5-ee05a0adc9b2/chunk-0","timestamp":"2025-04-10T15:59:58.265Z"}
+{"chunkIndex":"0","level":"info","message":"Chunk uploaded for file: ae320447-75a3-4eed-9cb5-ee05a0adc9b2","progress":0,"timestamp":"2025-04-10T15:59:58.269Z"}
+{"code":"ERR_INVALID_ARG_TYPE","level":"error","message":"Error finalizing upload: The \"path\" argument must be of type string. Received undefined","stack":"TypeError: The \"path\" argument must be of type string. Received undefined\n    at Object.join (node:path:1175:7)\n    at Object.ensureFileDirectories (/Users/enocmontiel/Desktop/Ideawise/backend-files-management/src/services/file.ts:15:33)\n    at Object.assembleFile (/Users/enocmontiel/Desktop/Ideawise/backend-files-management/src/services/file.ts:95:24)\n    at finalizeUpload (/Users/enocmontiel/Desktop/Ideawise/backend-files-management/src/controllers/upload.ts:167:52)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-04-10T15:59:58.277Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:00:15.331Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:00:15.332Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:00:15.332Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:00:45.334Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:00:45.334Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:00:45.334Z"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully...","timestamp":"2025-04-10T16:00:52.982Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-10T16:00:53.298Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-10T16:00:53.300Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-10T16:00:53.301Z"}
+{"fileId":"1da147b6-8ba1-46ba-a18e-811e6c7b24c6","level":"info","message":"Upload initiated for file: Untitled_Artwork 8.jpg","timestamp":"2025-04-10T16:01:19.627Z","totalChunks":1}
+{"chunkIndex":"0","chunkSize":674548,"level":"info","message":"Received file chunk for file: 1da147b6-8ba1-46ba-a18e-811e6c7b24c6","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/1da147b6-8ba1-46ba-a18e-811e6c7b24c6/chunk-0","timestamp":"2025-04-10T16:01:19.652Z"}
+{"chunkIndex":"0","level":"info","message":"Chunk uploaded for file: 1da147b6-8ba1-46ba-a18e-811e6c7b24c6","progress":0,"timestamp":"2025-04-10T16:01:19.656Z"}
+{"deviceId":"default-device","fileId":"1da147b6-8ba1-46ba-a18e-811e6c7b24c6","level":"info","message":"Upload finalized for file: Untitled_Artwork 8.jpg","timestamp":"2025-04-10T16:01:19.673Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:01:24.979Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:01:24.981Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:01:24.981Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:01:29.824Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:01:29.825Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:01:29.825Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:02:00.324Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:02:00.325Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:02:00.325Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:02:30.333Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:02:30.334Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:02:30.334Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:03:00.326Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:03:00.326Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:03:00.326Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:03:30.329Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:03:30.329Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:03:30.329Z"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully...","timestamp":"2025-04-10T16:03:33.001Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-10T16:03:33.323Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-10T16:03:33.325Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-10T16:03:33.325Z"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully...","timestamp":"2025-04-10T16:03:43.055Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-10T16:03:43.259Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-10T16:03:43.261Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-10T16:03:43.261Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:04:55.266Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:04:55.268Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:04:55.269Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:04:57.220Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:04:57.222Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:04:57.222Z"}
+{"fileId":"f2627693-5bc7-4a76-b8a4-68e96d7738c7","level":"info","message":"Upload initiated for file: ChatGPT Image 31 mar 2025, 11_23_57 p.m..png","timestamp":"2025-04-10T16:05:09.152Z","totalChunks":2}
+{"chunkIndex":"0","chunkSize":1048576,"level":"info","message":"Received file chunk for file: f2627693-5bc7-4a76-b8a4-68e96d7738c7","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/temp/f2627693-5bc7-4a76-b8a4-68e96d7738c7/chunk-0","timestamp":"2025-04-10T16:05:09.190Z"}
+{"chunkIndex":"0","level":"info","message":"Chunk uploaded for file: f2627693-5bc7-4a76-b8a4-68e96d7738c7","progress":0,"timestamp":"2025-04-10T16:05:09.191Z"}
+{"chunkIndex":"1","chunkSize":122597,"level":"info","message":"Received file chunk for file: f2627693-5bc7-4a76-b8a4-68e96d7738c7","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/temp/f2627693-5bc7-4a76-b8a4-68e96d7738c7/chunk-1","timestamp":"2025-04-10T16:05:09.196Z"}
+{"chunkIndex":"1","level":"info","message":"Chunk uploaded for file: f2627693-5bc7-4a76-b8a4-68e96d7738c7","progress":0,"timestamp":"2025-04-10T16:05:09.197Z"}
+{"deviceId":"default-device","fileId":"f2627693-5bc7-4a76-b8a4-68e96d7738c7","level":"info","message":"Upload finalized for file: ChatGPT Image 31 mar 2025, 11_23_57 p.m..png","timestamp":"2025-04-10T16:05:09.221Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:05:17.183Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:05:17.184Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:05:17.185Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:05:47.333Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:05:47.333Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:05:47.334Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:06:17.328Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:06:17.328Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:06:17.328Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:06:47.328Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:06:47.328Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:06:47.328Z"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully...","timestamp":"2025-04-10T16:06:47.946Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-10T16:06:48.336Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-10T16:06:48.338Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-10T16:06:48.338Z"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully...","timestamp":"2025-04-10T16:07:05.714Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-10T16:07:06.006Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-10T16:07:06.008Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-10T16:07:06.009Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:07:17.333Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:07:17.334Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:07:17.334Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:07:36.842Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:07:36.843Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:07:36.844Z"}
+{"deviceId":"default-device","fileId":"7ab0cb2a-cab9-454c-a526-bf0fc1947c19","level":"info","message":"Upload initiated for file: Set_04.jpg","timestamp":"2025-04-10T16:07:49.580Z","totalChunks":1}
+{"chunkIndex":"0","chunkSize":519458,"level":"info","message":"Received file chunk for file: 7ab0cb2a-cab9-454c-a526-bf0fc1947c19","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/temp/7ab0cb2a-cab9-454c-a526-bf0fc1947c19/chunk-0","timestamp":"2025-04-10T16:07:49.605Z"}
+{"chunkIndex":"0","level":"info","message":"Chunk uploaded for file: 7ab0cb2a-cab9-454c-a526-bf0fc1947c19","progress":0,"timestamp":"2025-04-10T16:07:49.607Z"}
+{"code":"ERR_INVALID_ARG_TYPE","level":"error","message":"Error finalizing upload: The \"path\" argument must be of type string. Received undefined","stack":"TypeError: The \"path\" argument must be of type string. Received undefined\n    at Object.join (node:path:1175:7)\n    at Object.ensureFileDirectories (/Users/enocmontiel/Desktop/Ideawise/backend-files-management/src/services/file.ts:15:33)\n    at Object.assembleFile (/Users/enocmontiel/Desktop/Ideawise/backend-files-management/src/services/file.ts:95:24)\n    at finalizeUpload (/Users/enocmontiel/Desktop/Ideawise/backend-files-management/src/controllers/upload.ts:177:52)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-04-10T16:07:49.617Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:08:07.317Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:08:07.318Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:08:07.318Z"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully...","timestamp":"2025-04-10T16:08:35.195Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-10T16:08:35.504Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-10T16:08:35.506Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-10T16:08:35.506Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:08:37.337Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:08:37.339Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:08:37.339Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:09:04.792Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:09:04.793Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:09:04.794Z"}
+{"deviceId":"default-device","fileId":"9503eac4-62c6-4c35-8ae5-94f65269cc8d","level":"info","message":"Upload initiated for file: ChatGPT Image 31 mar 2025, 10_37_14 p.m..png","timestamp":"2025-04-10T16:09:14.115Z","totalChunks":4}
+{"chunkIndex":"0","chunkSize":1048576,"level":"info","message":"Received file chunk for file: 9503eac4-62c6-4c35-8ae5-94f65269cc8d","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/temp/9503eac4-62c6-4c35-8ae5-94f65269cc8d/chunk-0","timestamp":"2025-04-10T16:09:14.178Z"}
+{"chunkIndex":"0","deviceId":"default-device","level":"info","message":"Chunk uploaded for file: 9503eac4-62c6-4c35-8ae5-94f65269cc8d","progress":0,"timestamp":"2025-04-10T16:09:14.179Z"}
+{"chunkIndex":"1","chunkSize":1048576,"level":"info","message":"Received file chunk for file: 9503eac4-62c6-4c35-8ae5-94f65269cc8d","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/temp/9503eac4-62c6-4c35-8ae5-94f65269cc8d/chunk-1","timestamp":"2025-04-10T16:09:14.187Z"}
+{"chunkIndex":"1","deviceId":"default-device","level":"info","message":"Chunk uploaded for file: 9503eac4-62c6-4c35-8ae5-94f65269cc8d","progress":0,"timestamp":"2025-04-10T16:09:14.188Z"}
+{"chunkIndex":"2","chunkSize":1048576,"level":"info","message":"Received file chunk for file: 9503eac4-62c6-4c35-8ae5-94f65269cc8d","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/temp/9503eac4-62c6-4c35-8ae5-94f65269cc8d/chunk-2","timestamp":"2025-04-10T16:09:14.195Z"}
+{"chunkIndex":"2","deviceId":"default-device","level":"info","message":"Chunk uploaded for file: 9503eac4-62c6-4c35-8ae5-94f65269cc8d","progress":0,"timestamp":"2025-04-10T16:09:14.196Z"}
+{"chunkIndex":"3","chunkSize":138545,"level":"info","message":"Received file chunk for file: 9503eac4-62c6-4c35-8ae5-94f65269cc8d","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/temp/9503eac4-62c6-4c35-8ae5-94f65269cc8d/chunk-3","timestamp":"2025-04-10T16:09:14.202Z"}
+{"chunkIndex":"3","deviceId":"default-device","level":"info","message":"Chunk uploaded for file: 9503eac4-62c6-4c35-8ae5-94f65269cc8d","progress":0,"timestamp":"2025-04-10T16:09:14.202Z"}
+{"deviceId":"default-device","fileId":"9503eac4-62c6-4c35-8ae5-94f65269cc8d","level":"info","message":"Upload finalized for file: ChatGPT Image 31 mar 2025, 10_37_14 p.m..png","timestamp":"2025-04-10T16:09:14.236Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:09:23.305Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:09:23.306Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:09:23.306Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:09:27.881Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:09:27.881Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:09:27.881Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:09:29.069Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:09:29.069Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:09:29.070Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:09:59.330Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:09:59.330Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:09:59.331Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:10:29.328Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:10:29.329Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:10:29.329Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:10:59.326Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:10:59.327Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:10:59.327Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:11:29.326Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:11:29.328Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:11:29.328Z"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully...","timestamp":"2025-04-10T16:12:08.249Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-10T16:12:08.594Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-10T16:12:08.596Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-10T16:12:08.596Z"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully...","timestamp":"2025-04-10T16:12:26.761Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-10T16:12:27.057Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-10T16:12:27.059Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-10T16:12:27.059Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:12:47.446Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:12:47.448Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:12:47.449Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:12:49.262Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:12:49.263Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:12:49.263Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:13:19.331Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:13:19.331Z"}
+{"level":"info","message":"Returning 0 files for device a97ad099-d322-4458-a9d3-8f8d847bd6fc","timestamp":"2025-04-10T16:13:19.332Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-10T16:17:11.411Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-10T16:17:11.413Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-10T16:17:11.413Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-04-10T16:17:44.335Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-04-10T16:17:44.337Z"}
+{"level":"info","message":"API URL: http://localhost:3000/api","timestamp":"2025-04-10T16:17:44.337Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:19:28.325Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:19:28.326Z"}
+{"level":"info","message":"Returning 0 files for device 81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:19:28.326Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:19:48.065Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:19:48.066Z"}
+{"level":"info","message":"Returning 0 files for device 81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:19:48.066Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:20:18.066Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:20:18.068Z"}
+{"level":"info","message":"Returning 0 files for device 81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:20:18.068Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:20:48.323Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:20:48.323Z"}
+{"level":"info","message":"Returning 0 files for device 81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:20:48.323Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:21:18.334Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:21:18.334Z"}
+{"level":"info","message":"Returning 0 files for device 81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:21:18.334Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:21:37.346Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:21:37.347Z"}
+{"level":"info","message":"Returning 0 files for device 81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:21:37.347Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:22:08.109Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:22:08.110Z"}
+{"level":"info","message":"Returning 0 files for device 81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:22:08.110Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:22:38.314Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:22:38.315Z"}
+{"level":"info","message":"Returning 0 files for device 81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:22:38.315Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:23:08.328Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:23:08.328Z"}
+{"level":"info","message":"Returning 0 files for device 81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:23:08.329Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:23:38.331Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:23:38.331Z"}
+{"level":"info","message":"Returning 0 files for device 81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:23:38.332Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:24:02.346Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:24:02.347Z"}
+{"level":"info","message":"Returning 0 files for device 81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:24:02.347Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:24:33.320Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:24:33.321Z"}
+{"level":"info","message":"Returning 0 files for device 81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:24:33.321Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:25:03.314Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:25:03.316Z"}
+{"level":"info","message":"Returning 0 files for device 81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:25:03.316Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:25:33.313Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:25:33.314Z"}
+{"level":"info","message":"Returning 0 files for device 81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:25:33.314Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:25:53.975Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:25:53.976Z"}
+{"level":"info","message":"Returning 0 files for device 81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:25:53.976Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:26:24.194Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:26:24.194Z"}
+{"level":"info","message":"Returning 0 files for device 81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:26:24.195Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:26:54.322Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:26:54.323Z"}
+{"level":"info","message":"Returning 0 files for device 81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:26:54.323Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:27:24.315Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:27:24.316Z"}
+{"level":"info","message":"Returning 0 files for device 81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:27:24.316Z"}
+{"deviceId":"81abab2a-dc3b-408b-be5a-082120b4f2cd","fileId":"1da1d5ca-2703-4f58-91ac-811caa0da13b","level":"info","message":"Upload initiated for file: ChatGPT Image 1 abr 2025, 05_32_55 p.m..png","timestamp":"2025-04-10T16:27:44.673Z","totalChunks":3}
+{"chunkIndex":"0","chunkSize":1048576,"level":"info","message":"Received file chunk for file: 1da1d5ca-2703-4f58-91ac-811caa0da13b","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/temp/1da1d5ca-2703-4f58-91ac-811caa0da13b/chunk-0","timestamp":"2025-04-10T16:27:44.734Z"}
+{"chunkIndex":"0","deviceId":"81abab2a-dc3b-408b-be5a-082120b4f2cd","level":"info","message":"Chunk uploaded for file: 1da1d5ca-2703-4f58-91ac-811caa0da13b","progress":0,"timestamp":"2025-04-10T16:27:44.736Z"}
+{"chunkIndex":"1","chunkSize":1048576,"level":"info","message":"Received file chunk for file: 1da1d5ca-2703-4f58-91ac-811caa0da13b","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/temp/1da1d5ca-2703-4f58-91ac-811caa0da13b/chunk-1","timestamp":"2025-04-10T16:27:44.747Z"}
+{"chunkIndex":"1","deviceId":"81abab2a-dc3b-408b-be5a-082120b4f2cd","level":"info","message":"Chunk uploaded for file: 1da1d5ca-2703-4f58-91ac-811caa0da13b","progress":0,"timestamp":"2025-04-10T16:27:44.748Z"}
+{"chunkIndex":"2","chunkSize":789810,"level":"info","message":"Received file chunk for file: 1da1d5ca-2703-4f58-91ac-811caa0da13b","path":"/Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/temp/1da1d5ca-2703-4f58-91ac-811caa0da13b/chunk-2","timestamp":"2025-04-10T16:27:44.758Z"}
+{"chunkIndex":"2","deviceId":"81abab2a-dc3b-408b-be5a-082120b4f2cd","level":"info","message":"Chunk uploaded for file: 1da1d5ca-2703-4f58-91ac-811caa0da13b","progress":0,"timestamp":"2025-04-10T16:27:44.759Z"}
+{"deviceId":"81abab2a-dc3b-408b-be5a-082120b4f2cd","fileId":"1da1d5ca-2703-4f58-91ac-811caa0da13b","level":"info","message":"Upload finalized for file: ChatGPT Image 1 abr 2025, 05_32_55 p.m..png","timestamp":"2025-04-10T16:27:44.799Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:28:03.235Z"}
+{"level":"info","message":"Found 2 files in directory: .DS_Store, 1da1d5ca-2703-4f58-91ac-811caa0da13b","timestamp":"2025-04-10T16:28:03.236Z"}
+{"level":"info","message":"Returning 1 files for device 81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:28:03.237Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:28:05.170Z"}
+{"level":"info","message":"Found 2 files in directory: .DS_Store, 1da1d5ca-2703-4f58-91ac-811caa0da13b","timestamp":"2025-04-10T16:28:05.170Z"}
+{"level":"info","message":"Returning 1 files for device 81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:28:05.171Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:28:17.426Z"}
+{"level":"info","message":"Found 2 files in directory: .DS_Store, 1da1d5ca-2703-4f58-91ac-811caa0da13b","timestamp":"2025-04-10T16:28:17.427Z"}
+{"level":"info","message":"Returning 1 files for device 81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:28:17.427Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:28:32.510Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:28:32.511Z"}
+{"level":"info","message":"Returning 0 files for device 81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:28:32.511Z"}
+{"level":"info","message":"Listing files from device directory: /Users/enocmontiel/Desktop/Ideawise/backend-files-management/uploads/81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:29:03.310Z"}
+{"level":"info","message":"Found 0 files in directory: ","timestamp":"2025-04-10T16:29:03.311Z"}
+{"level":"info","message":"Returning 0 files for device 81abab2a-dc3b-408b-be5a-082120b4f2cd","timestamp":"2025-04-10T16:29:03.311Z"}

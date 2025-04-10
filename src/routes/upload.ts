@@ -1,7 +1,7 @@
 import { Router, Request, Response, NextFunction } from 'express';
 import { uploadController } from '../controllers/upload';
 import { upload, errorHandler } from '../middleware/upload';
-import { uploadRateLimit } from '../middleware/rateLimit';
+import { uploadRateLimit, chunkUploadRateLimit } from '../middleware/rateLimit';
 import { API_ENDPOINTS } from '../types/api';
 
 const router = Router();
@@ -14,7 +14,7 @@ router.post(
 
 router.post(
     API_ENDPOINTS.UPLOAD.CHUNK,
-    uploadRateLimit,
+    chunkUploadRateLimit,
     (req: Request, res: Response, next: NextFunction) => {
         // Check if the request has a file upload or base64 data
         const contentType = req.headers['content-type'] || '';

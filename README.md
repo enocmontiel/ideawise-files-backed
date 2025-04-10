@@ -67,30 +67,35 @@ npm start
 -   `POST /api/upload/initiate`
 
     -   Initiates a new file upload
-    -   Request body: `{ fileName, fileSize, mimeType }`
+    -   Request body: `{ fileName, fileSize, mimeType, deviceId }`
     -   Response: `{ fileId, uploadUrl, chunks, chunkSize }`
+    -   Note: `deviceId` is required to identify the uploading device
 
 -   `POST /api/upload/chunk`
 
     -   Uploads a file chunk
-    -   Form data: `{ fileId, chunkIndex, totalChunks, chunk }`
+    -   Form data: `{ fileId, chunkIndex, totalChunks, chunk, deviceId }`
     -   Response: `{ success: true }`
+    -   Note: `deviceId` must match the one used in initiate
 
 -   `POST /api/upload/finalize`
 
     -   Finalizes the upload
-    -   Request body: `{ fileId, fileName }`
+    -   Request body: `{ fileId, fileName, deviceId }`
     -   Response: `FileMetadata`
+    -   Note: `deviceId` must match the one used in initiate
 
 -   `GET /api/upload/status/:fileId`
 
     -   Gets the upload status
+    -   Query params: `deviceId` (required)
     -   Response: `{ fileId, progress, status, error? }`
 
 -   `POST /api/upload/cancel`
     -   Cancels an upload
-    -   Request body: `{ fileId }`
+    -   Request body: `{ fileId, deviceId }`
     -   Response: `{ success: true }`
+    -   Note: `deviceId` must match the one used in initiate
 
 ## Error Handling
 

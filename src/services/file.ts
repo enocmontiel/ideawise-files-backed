@@ -2,6 +2,7 @@ import fs from 'fs-extra';
 import path from 'path';
 import { v4 as uuidv4 } from 'uuid';
 import sharp from 'sharp';
+import ffmpeg from 'fluent-ffmpeg';
 import { config } from '../config';
 import logger from '../utils/logger';
 import { FileMetadata, UploadChunk } from '../types/api';
@@ -65,21 +66,46 @@ export const fileService = {
     ): Promise<string | undefined> {
         try {
             const mimeType = this.getMimeType(fileName);
-            if (!mimeType.startsWith('image/')) {
+            const thumbnailPath = path.join(
+                thumbnailDir,
+                `${path.parse(fileName).name}.jpg`
+            );
+
+            if (mimeType.startsWith('image/')) {
+                // Handle image thumbnails
+                await sharp(originalFilePath)
+                    .resize(200, 200, {
+                        fit: 'inside',
+                        withoutEnlargement: true,
+                    })
+                    .toFile(thumbnailPath);
+            } else if (mimeType.startsWith('video/')) {
+                // Handle video thumbnails
+                await new Promise((resolve, reject) => {
+                    ffmpeg(originalFilePath)
+                        .on('error', (err) => {
+                            logger.error(
+                                'Error generating video thumbnail:',
+                                err
+                            );
+                            reject(err);
+                        })
+                        .on('end', () => resolve(null))
+                        .screenshots({
+                            timestamps: ['00:00:01'],
+                            filename: path.basename(thumbnailPath),
+                            folder: thumbnailDir,
+                            size: '200x200',
+                        });
+                });
+            } else {
                 return undefined;
             }
 
-            const thumbnailPath = path.join(thumbnailDir, fileName);
-
-            await sharp(originalFilePath)
-                .resize(200, 200, {
-                    fit: 'inside',
-                    withoutEnlargement: true,
-                })
-                .toFile(thumbnailPath);
-
             // Return URL in the same format as original files
-            return `/files/${deviceId}/${fileId}/thumbnail/${fileName}`;
+            return `/files/${deviceId}/${fileId}/thumbnail/${path.basename(
+                thumbnailPath
+            )}`;
         } catch (error) {
             logger.error('Error generating thumbnail:', error);
             return undefined;
@@ -179,7 +205,9 @@ export const fileService = {
             '.png': 'image/png',
             '.gif': 'image/gif',
             '.mp4': 'video/mp4',
+            '.mov': 'video/quicktime',
             '.webm': 'video/webm',
+            '.avi': 'video/x-msvideo',
         };
         return mimeTypes[ext] || 'application/octet-stream';
     },

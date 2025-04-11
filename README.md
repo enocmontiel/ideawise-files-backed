@@ -1,6 +1,7 @@
 # File Upload Backend Service
 
 A Node.js backend service for handling chunked file uploads with support for resumable uploads, progress tracking, and file management.
+<img width="1920" alt="Screenshot 2025-04-11 at 16 07 40" src="https://github.com/user-attachments/assets/5a708b70-c1ad-48d1-8b62-f6005e8f3222" />
 
 ## Features
 

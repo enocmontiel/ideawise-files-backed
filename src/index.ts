@@ -24,9 +24,14 @@ app.get('/', (req, res) => {
         serverTime: new Date().toISOString(),
         environment: config.nodeEnv,
         endpoints: {
-            upload: '/api/upload',
-            files: '/api/files',
             health: '/',
+            staticFiles: '/files',
+            files: {
+                list: '/api/files/device/:deviceId',
+                upload: '/api/files',
+                delete: '/api/files/:id',
+            },
+            test: '/api/test-files',
         },
     });
 });
